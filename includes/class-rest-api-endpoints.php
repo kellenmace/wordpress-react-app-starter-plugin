@@ -179,9 +179,14 @@ if ( class_exists( 'WP_REST_Controller' ) ) {
 		 */
 		public function get_items( $request ) {
 
-			$args = (array) $this->sanitize_recursively( $request->get_param( 'args' ) );
+			$args           = $request->get_param( 'args' );
+			$sanitized_args = array();
 
-			return new WP_REST_Response( $this->get_posts_data( $args ), 200 );
+			if ( $args ) {
+				$sanitized_args = (array) $this->sanitize_recursively( $args );
+			}
+
+			return new WP_REST_Response( $this->get_posts_data( $sanitized_args ), 200 );
 		}
 
 		/**
