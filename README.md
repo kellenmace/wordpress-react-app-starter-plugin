@@ -1,11 +1,11 @@
 # WordPress React App Starter Plugin #
-**Contributors:**      Kellen Mace
-**Donate link:**       https://kellenmace.com
-**Requires at least:** 4.4
-**Tested up to:**      4.8.2
-**Stable tag:**        1.0.0
-**License:**           GPLv2
-**License URI:**       http://www.gnu.org/licenses/gpl-2.0.html
+* **Contributors:**      Kellen Mace
+* **Donate link:**       https://kellenmace.com
+* **Requires at least:** 4.4
+* **Tested up to:**      4.8.2
+* **Stable tag:**        1.0.0
+* **License:**           GPLv2
+* **License URI:**       http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description ##
 
